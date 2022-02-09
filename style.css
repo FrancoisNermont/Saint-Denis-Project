@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h1 {
+  text-align: center;
+  margin-left: 500px;
+  color: black;
+ background: linear-gradient(to bottom, #000000 0%,#8C8B8C   100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  cursor: default; 
+  font-size: 50px;
+
+}
+li {
+  display: inline;
+
+}
+#nav {
+  padding: 0; 
+  margin-left: 500px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px
+   
+}
+
+#nav li {
+  display: inline;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 1050px;
+  border-radius: 8px;
+  text-decoration: none;
+  background: linear-gradient(to bottom,#000000 0%,#000000 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
+ header{
+  position: fixed;
+ }
+
+
+
+#nav a {
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+
+    
+
+    
+
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/PlaceSD.jpg");
+
+
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  
+
+.text{
+height:1000px;
+background-color:#FFFFFF;
+font-size:36px;
+
+}
+
+
+
+
+
+
+
