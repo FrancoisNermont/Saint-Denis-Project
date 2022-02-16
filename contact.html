@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<html>
 <html lang="fr">
 <head>
 	<meta charset="utf-8">
@@ -37,22 +36,29 @@
       <img src="images/SaintDenisPhoto.jpg" style="width:100%">
     </div>
     <div class="column">
-      <form action="/action_page.php">
+      <form action="/action_page.php" method="POST">
       	<label for="Genre">Genre</label>
         <select id="Genre" name="genre">
-          <option value="australia">Femme</option>
-          <option value="canada">Homme</option>
-          <option value="usa">Ne veux pas se prononcer</option>
-        <label for="fname">First Name</label>
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-        <label for="lname">Last Name</label>
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <option value="femme">Femme</option>
+          <option value="homme">Homme</option>
+          <option value="iel">Ne veux pas se prononcer</option>
+
+        <label for="fname">Prénom </label>
+        <input type="text" id="fname" name="firstname" placeholder="Votre Prenom..">
+
+        <label for="lname">Nom</label>
+        <input type="text" id="lname" name="lastname" placeholder="Votre Nom..">
         </select>
+
         <label for="subject">Subject</label>
         <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+
         <input type="submit" value="Submit">
       </form>
     </div>
   </div>
 </div>
 	</header>
+
+</body>
+</html>

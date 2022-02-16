@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  width: 100%;
+  height: 150px;
+}
+h1 {
+  text-align: center;
+  color: FFFFFF;
+  cursor: default; 
+  font-size: 50px;
+
+}
+li {
+  display: inline;
+}
+#nav {
+  padding: 0; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px  
+}
+#nav li {
+  display: inline;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px;
+  text-decoration: none;
+  background: linear-gradient(to bottom,#000000 0%,#000000 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+ /*header{
+  position: fixed;
+ }*/
+#nav a {
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+}
