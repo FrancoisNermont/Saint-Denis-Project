@@ -40,7 +40,7 @@ li {
 #nav a {
     display: inline-block;
     margin: 0 30px;
-
+    color: white;
     text-decoration: none;
 }
 .parallax {
