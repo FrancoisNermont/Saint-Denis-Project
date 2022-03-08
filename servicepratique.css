@@ -176,3 +176,14 @@ html,body {
     width: 100%;
   }
 }
+.image-ronde-bg{
+  background-size : contain;
+  background-position : 50% 50%; 
+  background-image : url(placeSD.jpg);
+  display : inline-block;
+  width : 150px; height : 150px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
