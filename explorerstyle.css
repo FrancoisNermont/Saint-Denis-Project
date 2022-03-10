@@ -40,8 +40,7 @@ li {
   width: 100%;
   border-radius: 8px;
   text-decoration: none;
-
-  
+ 
 }
  /*header{
   position: fixed;
@@ -52,27 +51,6 @@ li {
     color: white;
     text-decoration: none;
 }
-.parallax {
-  /* The image used */
-  background-image: url("images/PlaceSD.jpg");
-  /* Set a specific height */
-  min-height: 500px; 
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-/*.text{
-height:1000px;
-background-color:#FFFFFF;
-font-size:36px;
-}*/
-/*img{
-  width: 250px;
-float: left;
-}
-*/
 #conteneur{
   display: flex;
   /*justify-content: space-between;*/
@@ -217,9 +195,7 @@ float: left;
 .box {
 /*border: 2px solid white;*/
 }
-.p {
-  
-}
+
 
 
 
