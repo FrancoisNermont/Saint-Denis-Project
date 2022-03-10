@@ -79,9 +79,12 @@ html,body {
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
   width: 100%;
-  position: relative;
   height: auto;
   background-color: #070617;
+  margin-top: 200px;
+  position: absolute;
+  bottom: 0px;
+}
 }
 .footer .col {
   width: 190px;
