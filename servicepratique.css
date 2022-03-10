@@ -2,6 +2,13 @@
   padding: 0;
   margin: 0;
 }
+/* REMOVE THIS, USE YOUR OWN  */
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: #070617;
+}
 header{
   width: 100%;
   height: 150px;
@@ -10,7 +17,8 @@ h1 {
   text-align: center;
   color: white;
   cursor: default; 
-  font-size: 50px;
+  font-size: 35px;
+
 
 }
 li {
@@ -20,7 +28,7 @@ li {
   padding: 0; 
   text-align: center;
   text-decoration: none;
-  font-size: 20px  
+  font-size: 20px; 
 }
 #nav li {
   display: inline;
@@ -32,6 +40,7 @@ li {
   width: 100%;
   border-radius: 8px;
   text-decoration: none;
+
   
 }
  /*header{
@@ -40,9 +49,30 @@ li {
 #nav a {
     display: inline-block;
     margin: 0 30px;
-
+    color: white;
     text-decoration: none;
 }
+.parallax {
+  /* The image used */
+  background-image: url("images/PlaceSD.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*.text{
+height:1000px;
+background-color:#FFFFFF;
+font-size:36px;
+}*/
+/*img{
+  width: 250px;
+float: left;
+}
+*/
 #conteneur{
   display: flex;
   /*justify-content: space-between;*/
@@ -60,7 +90,7 @@ li {
 }
 .test{
   width: 15%;
-  }
+}
 /* REMOVE THIS, USE YOUR OWN  */
 html,body {
   margin: 0;
@@ -82,6 +112,9 @@ html,body {
   position: relative;
   height: auto;
   background-color: #070617;
+  margin-top: 150px;
+  
+
 }
 .footer .col {
   width: 190px;
@@ -166,7 +199,7 @@ html,body {
     }
     .footer .col h1 {
       font-size: 14px;
-    }
+    } 
     .footer .col ul li {
       font-size: 13px;
     }
@@ -176,6 +209,7 @@ html,body {
     width: 100%;
   }
 }
+
 .image-ronde-bg{
   background-size : contain;
   background-position : 50% 50%; 
