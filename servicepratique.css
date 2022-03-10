@@ -203,7 +203,7 @@ html,body {
 
 .image-ronde-bg{
   background-size : contain;
-  background-position : 25% 75%; 
+  background-position : 50% 50%; 
   background-image : url(placeSD.jpg);
   display : inline-block;
   width : 150px; height : 150px;
