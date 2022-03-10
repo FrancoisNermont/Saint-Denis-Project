@@ -2,13 +2,6 @@
   padding: 0;
   margin: 0;
 }
-/* REMOVE THIS, USE YOUR OWN  */
-html,body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, Sans-serif;
-  background-color: #070617;
-}
 header{
   width: 100%;
   height: 150px;
@@ -18,9 +11,8 @@ h1 {
   color: white;
   cursor: default; 
   font-size: 35px;
-
-
 }
+
 li {
   display: inline;
 }
@@ -99,12 +91,12 @@ html,body {
   background-color: #070617;
 }
 .dummy_page {
-  height: 200px;
+  height: 500px;
   width: 100%;
   background-color: #f0f0f0;
   text-align: center;
   box-sizing: border-box;
-  padding: 60px 0px;
+  padding: 400px 0px;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
@@ -114,7 +106,6 @@ html,body {
   background-color: #070617;
   margin-top: 150px;
   
-
 }
 .footer .col {
   width: 190px;
@@ -212,7 +203,7 @@ html,body {
 
 .image-ronde-bg{
   background-size : contain;
-  background-position : 50% 50%; 
+  background-position : 25% 75%; 
   background-image : url(placeSD.jpg);
   display : inline-block;
   width : 150px; height : 150px;
