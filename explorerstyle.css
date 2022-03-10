@@ -211,10 +211,14 @@ float: left;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   color: white;
-  gap: 10px;
+  gap: 200px;
+  padding: 150px;
 }
 .box {
-  border: 2px solid white;
+/*border: 2px solid white;*/
+}
+.p {
+  
 }
 
 
