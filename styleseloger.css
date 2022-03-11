@@ -70,12 +70,12 @@ li {
   width: 15%;
 }
 .dummy_page {
-  height: 200px;
+  height: auto;
   width: 100%;
   background-color: #f0f0f0;
   text-align: center;
   box-sizing: border-box;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
