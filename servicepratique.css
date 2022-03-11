@@ -224,4 +224,11 @@ html,body {
   text-align: center;
   border: none;
 }
+p{
+  margin-top: 70px;
+  font-size: 20px;
+}
+h2{
+  font-size: 30px;
+}
 
