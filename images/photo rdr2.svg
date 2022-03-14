@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg12477"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="photo rdr2.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12479"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72337262"
+     inkscape:cx="296.52767"
+     inkscape:cy="415.41523"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs12474" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g1286"
+       transform="translate(-13.167488,-5.1206896)">
+      <ellipse
+         style="fill:#e6e6e6;fill-opacity:1;stroke:#000000;stroke-width:2;stroke-miterlimit:4;stroke-dasharray:none;paint-order:stroke markers fill"
+         id="path12866"
+         cx="149"
+         cy="148.5"
+         rx="46.929832"
+         ry="52.429829" />
+      <path
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d52e2e;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         d="m 152.61778,125 c -7.21515,0 -7.03137,7.10158 -13.37947,7.24963 h -4.76902 -0.86709 -2.34922 -9.64895 -1.65353 -0.11091 c -2.68113,0 -4.83959,1.99743 -4.83959,4.47854 v 28.79329 c 0,2.48111 2.15846,4.47854 4.83959,4.47854 h 56.32081 c 2.68113,0 4.83959,-1.99743 4.83959,-4.47854 v -28.79329 c 0,-2.48111 -2.15846,-4.47854 -4.83959,-4.47854 h -5.49496 C 164.31734,132.10158 164.50112,125 157.28597,125 Z m -28.72502,4.60916 c -1.26648,0 -2.28873,0.9032 -2.28873,2.034 h 9.64895 c 0,-1.1308 -1.01217,-2.034 -2.27865,-2.034 z"
+         id="path3829"
+         inkscape:connector-curvature="0" />
+      <ellipse
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d52e2e;fill-opacity:1;stroke:#000000;stroke-width:0.328477;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="path3772"
+         cx="154.95055"
+         cy="151.35553"
+         rx="14.829149"
+         ry="13.722827" />
+      <ellipse
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d52e2e;fill-opacity:1;stroke:#000000;stroke-width:0.753;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="path3775"
+         cx="145.93687"
+         cy="144.03526"
+         rx="3.1762395"
+         ry="2.9392774" />
+      <path
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d52e2e;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.0255987;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         d="m 168.04153,149.57371 c -0.73178,7.36547 -7.06269,13.2165 -15.02291,13.89281 0.34659,0.0236 0.69542,0.0373 1.04858,0.0373 7.754,0 14.02474,-5.7936 14.02474,-12.96911 0,-0.32224 -0.0255,-0.64473 -0.0504,-0.96102 z"
+         id="path3784"
+         inkscape:connector-curvature="0" />
+      <ellipse
+         id="path3792"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d52e2e;fill-opacity:1;stroke:#000000;stroke-width:0.288881;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         cx="151.80045"
+         cy="148.91379"
+         rx="1.2181666"
+         ry="1.1272857" />
+      <rect
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#d52e2e;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.0328096;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker:none;enable-background:accumulate"
+         id="rect3797"
+         width="8.3321333"
+         height="4.2978082"
+         x="150.78581"
+         y="126.47591"
+         ry="2.1489041" />
+    </g>
+  </g>
+</svg>
