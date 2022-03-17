@@ -198,9 +198,6 @@ img{
   justify-content: center;
   color: white;
 }
-img{
-  max-width: auto;
-}
 .image1{
   flex-basis: 40%;
 }
@@ -213,9 +210,6 @@ img{
   justify-content: center;
   color: white;
 }
-img{
-  max-width: auto;
-}
 .image2{
   flex-basis: 40%;
 }
@@ -227,9 +221,6 @@ img{
   align-items: center;
   justify-content: center;
   color: white;
-}
-img{
-  max-width: auto;
 }
 .image3{
   flex-basis: 40%;
