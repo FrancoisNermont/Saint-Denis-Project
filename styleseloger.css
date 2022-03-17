@@ -181,9 +181,11 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  background-color: red;
 }
 img{
-  max-width: 100%;
+  max-width: auto;
 }
 .image{
   flex-basis: 40%;
