@@ -72,7 +72,7 @@ li {
 .corps {
   height: auto;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: gray;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
@@ -182,7 +182,6 @@ li {
   align-items: center;
   justify-content: center;
   color: white;
-  background-color: red;
 }
 img{
   max-width: auto;
@@ -191,5 +190,50 @@ img{
   flex-basis: 40%;
 }
 .container > div{
-  flex-basis: 50%;
+  flex-basis: 40%;
+}
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+img{
+  max-width: auto;
+}
+.image1{
+  flex-basis: 40%;
+}
+.container1 > div{
+  flex-basis: 40%;
+}
+.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+img{
+  max-width: auto;
+}
+.image2{
+  flex-basis: 40%;
+}
+.container2 > div{
+  flex-basis: 40%;
+}
+.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+img{
+  max-width: auto;
+}
+.image3{
+  flex-basis: 40%;
+}
+.container3 > div{
+  flex-basis: 40%;
 }
