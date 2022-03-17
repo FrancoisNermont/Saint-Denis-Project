@@ -178,10 +178,16 @@ li {
   }
 }
 .container{
-  color: white;
-  text-align: auto;
-  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img{
+  max-width: 100%;
 }
 .image{
-  display: inline-block;
+  flex-basis: 40%;
+}
+.container > div{
+  flex-basis: 50%;
 }
