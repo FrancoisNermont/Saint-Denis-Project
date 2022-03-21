@@ -179,7 +179,7 @@ li {
 }
 /* container = ce qui contient les images et textes
    codé de façon à ce que l'image et le texte restent sur une seule ligne */
-.container{
+.container1{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -189,18 +189,6 @@ img{
   max-width: auto;
 }
 /* flex-basis = permet d'ajuster un élément sur la page */
-.image{
-  flex-basis: 40%;
-}
-.container > div{
-  flex-basis: 40%;
-}
-.container1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
 .image1{
   flex-basis: 40%;
 }
@@ -231,3 +219,77 @@ img{
 .container3 > div{
   flex-basis: 40%;
 }
+.container4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.image4{
+  flex-basis: 40%;
+}
+.container4 > div{
+  flex-basis: 40%;
+}
+.container5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.image5{
+  flex-basis: 40%;
+}
+.container5 > div{
+  flex-basis: 40%;
+}
+.container6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.image6{
+  flex-basis: 40%;
+}
+.container6 > div{
+  flex-basis: 40%;
+}
+.container7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.image7{
+  flex-basis: 40%;
+}
+.container7 > div{
+  flex-basis: 40%;
+}
+.container8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.image8{
+  flex-basis: 40%;
+}
+.container8 > div{
+  flex-basis: 40%;
+}
+.container9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.image9{
+  flex-basis: 40%;
+}
+.container9 > div{
+  flex-basis: 40%;
+}
+
+
