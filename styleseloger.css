@@ -177,6 +177,8 @@ li {
     width: 100%;
   }
 }
+/* container = ce qui contient les images et textes
+   codé de façon à ce que l'image et le texte restent sur une seule ligne */
 .container{
   display: flex;
   align-items: center;
@@ -186,6 +188,7 @@ li {
 img{
   max-width: auto;
 }
+/* flex-basis = permet d'ajuster un élément sur la page */
 .image{
   flex-basis: 40%;
 }

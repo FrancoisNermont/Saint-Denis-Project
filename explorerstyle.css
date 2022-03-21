@@ -69,10 +69,11 @@ li {
 .test{
   width: 15%;
 }
-.dummy_page {
+/* corps = partie principale de la page, tous les éléments (images textes etc) sont présents dedans */
+.corps {
   height: 200px;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: grey;
   text-align: center;
   box-sizing: border-box;
   padding: 60px 0px;
@@ -175,14 +176,6 @@ li {
 @media only screen and (max-width: 340px) {
   .footer .col {
     width: 100%;
-  }
-}
-.center{
-  width: 300px;
-  height: 300px;
-  text-align: center;
-  vertical-align: middle;
-  margin: auto;
 }
 .grid {
   display: grid;
