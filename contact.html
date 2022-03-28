@@ -16,6 +16,8 @@
 			</div>
 			<div class="titre">
 				<h1>Saint Denis</h1> 
+        <br>
+        <br>
 				<ul id="nav">
 					<li><a href="index.html">Accueil</a></li>
 					<li><a href="Explorer.html" target="_blank">Explorer</a></li>
@@ -27,41 +29,38 @@
 			</div>
   </form>
 	</div>
-			</div>
-<div class="container"> 
+</div>
+	</header>
+<div class="dummy_page">
+<div class="container">
   <div style="text-align:center">
     <h2>Contactez Nous</h2>
-    <p>Remplissez vos informations et laissez nous votre message:</p>
+    <br>
+    <p>Si vous avez des questions , adressez votre message à Monsieur le Maire</p>
   </div>
   <div class="row">
     <div class="column">
       <img src="images/SaintDenisPhoto.jpg" style="width:100%">
     </div>
     <div class="column">
-      <form action="/action_page.php" method="POST">
-      	<label for="Genre">Genre</label>
-        <select id="Genre" name="genre">
-          <option value="femme">Femme</option>
-          <option value="homme">Homme</option>
-          <option value="iel">Ne veux pas se prononcer</option>
-
-         <label for="lname">prenom</label>
-        <input type="text" id="fname" name="firstname" placeholder="Votre Prenom..">
-        
+      <form action="/action_page.php">
+        <label for="fname">Prénom</label>
+        <input type="text" id="fname" name="firstname" placeholder="votre prénom..">
         <label for="lname">Nom</label>
-        <input type="text" id="lname" name="lastname" placeholder="Votre Nom..">
+        <input type="text" id="lname" name="lastname" placeholder="votre nom de famille..">
+        <label for="country">Genre</label>
+        <select id="country" name="Genre">
+          <option value="australia">Homme</option>
+          <option value="canada">Femme</option>
+          <option value="usa">Ne veut pas se prononcer</option>
         </select>
-
         <label for="subject">Sujet</label>
-        <textarea id="subject" name="subject" placeholder="Ecrivez votre message.." style="height:170px"></textarea>
-
+        <textarea id="subject" name="subject" placeholder="Ecrivez votre message..." style="height:170px"></textarea>
         <input type="submit" value="Submit">
       </form>
     </div>
   </div>
 </div>
-	</header>
-<div class="dummy_page">
   </div>
 <!-- FOOTER START -->
 <div class="footer">

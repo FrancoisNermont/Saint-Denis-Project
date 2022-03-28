@@ -12,7 +12,7 @@ h1 {
   text-align: center;
   color: black;
   cursor: default; 
-  font-size: 50px
+  font-size: 35px
 
 }
 li {
@@ -49,6 +49,7 @@ li {
   /*justify-content: space-between;*/
   height: 150px;
 }
+
 .logo{
   width: 15%;
 }
