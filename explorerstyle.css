@@ -73,10 +73,39 @@ li {
 .corps {
   height: auto;
   width: 100%;
-  background-color: grey;
+  background-color: gray;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
+  border: 5px solid white;
+/*textes en dessus de la carte et en dessous*/
+}
+.texte1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.p{
+  color: white;
+}
+.carte {
+  width: auto;
+  height: 20px;
+  text-align: center;
+  border-top-style: solid;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-left-style: solid;
+  border-right-width: 0px;
+  border-right-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  width: 700px;height: 20px;
+  margin-right: 0px;
+  margin-left: 150px;
+  margin-bottom: 0px;
+  background-color: #d52e2eff;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
@@ -177,28 +206,7 @@ li {
   .footer .col {
     width: 100%;
 }
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  color: white;
-  gap: 200px;
-  padding: 150px;
-}
-.box {
-/*border: 2px solid white;*/
-}
-.conteneur1{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.texte1{
-  color: white;
-}
-.p{
-  color: white;
-}
+
 
 
 
