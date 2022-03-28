@@ -73,7 +73,7 @@ li {
 .corps {
   height: auto;
   width: 100%;
-  background-color: gray;
+  background-color: #e6e6e6ff;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
@@ -84,10 +84,13 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: black;
 }
 .p{
   color: white;
+}
+.img{
+
 }
 .carte {
   width: auto;
@@ -103,7 +106,7 @@ li {
   border-bottom-style: solid;
   width: 700px;height: 20px;
   margin-right: 0px;
-  margin-left: 150px;
+  margin-left: 400px;
   margin-bottom: 0px;
   background-color: #d52e2eff;
 }
