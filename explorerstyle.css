@@ -188,8 +188,17 @@ li {
 .box {
 /*border: 2px solid white;*/
 }
-
-
+.conteneur1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.texte1{
+  color: white;
+}
+.p{
+  color: white;
+}
 
 
 
