@@ -71,12 +71,12 @@ li {
 }
 /* corps = partie principale de la page, tous les éléments (images textes etc) sont présents dedans */
 .corps {
-  height: 200px;
+  height: auto;
   width: 100%;
   background-color: grey;
   text-align: center;
   box-sizing: border-box;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
