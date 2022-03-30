@@ -61,11 +61,6 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
-img{
-  width: 300px;
-  height: auto;
-  margin-left: 310px;
-}
 /*.text{
 height:1000px;
 background-color:#FFFFFF;
@@ -109,6 +104,7 @@ html,body {
   box-sizing: border-box;
   padding: 60px 0px;
 }
+
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
   width: 100%;

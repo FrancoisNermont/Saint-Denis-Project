@@ -16,6 +16,10 @@ h1 {
 li {
   display: inline;
 }
+p{
+  text-align: justify;
+  font-size: 25px;
+}
 #nav {
   padding: 0; 
   text-align: center;
