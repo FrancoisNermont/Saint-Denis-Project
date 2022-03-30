@@ -61,6 +61,11 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
 }
+img{
+  width: 300px;
+  height: auto;
+  margin-left: 310px;
+}
 /*.text{
 height:1000px;
 background-color:#FFFFFF;
