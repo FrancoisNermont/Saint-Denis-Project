@@ -183,8 +183,6 @@ li {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-
 }
 .container1 > div{
   flex-basis: 40%;
@@ -195,7 +193,67 @@ img{
 .img1 img{
   border: 5px solid black;
 }
+.texte{
+  font-family: Arial;
+  background-color: white;
+  padding: 10px;
+/*}
+.desc{
+  margin: 30px;*/
+}
+.prix{
+  color: black;
+  font-style: bold;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
 button{
+vertical-align: middle;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+.bouton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e6e6e6ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 280px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bouton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: gray;
+}
+.bouton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.bouton:hover span {
+  padding-right: 25px;
+}
+
+.bouton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+/*button{
   background-color: white;
   padding: 5px 10px;
   text-align: center;
@@ -211,26 +269,13 @@ button:hover{
 }
 button a:hover{
   color: white;
-  background-color: #d52e2eff;
+/*  background-color: #d52e2eff;*/
 }
 button a{
   color: black;
   text-decoration: none;
-  transition: all 1s ease-out;
+  transition: all 0.3s ease-out;
 }
-
-
-.texte{
-  font-family: Arial;
-  background-color: white;
-  padding: 10px;
-}
-/*.desc{
-  margin: 30px;
-}
-.prix{
-  margin: 30px;
-}*/
 /* flex-basis = permet d'ajuster un élément sur la page */
 .image1{
   flex-basis: 40%;

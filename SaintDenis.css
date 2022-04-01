@@ -86,9 +86,6 @@ li {
   justify-content: center;
   color: black;
 }
-.desc{
-  color: red;
-}
 .p{
   color: black;
 }
@@ -128,31 +125,43 @@ li {
   margin-right: 273px;
   background-color: white;
 }
-.imgblason{
-
+.container1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.port{
+  border: solid 5px white;
+  margin-right: 20px;
+}
+.port1{
+  border: solid 5px white;
+}
+.container1 > div{
+  flex-basis: 40%;
 }
 .description{
-  margin-left: 350px;
-  margin-right: 350px;
-  margin-top: 75px;
+  margin-left: 330px;
+  margin-right: 330px;
+  margin-top: 25px;
   margin-bottom: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
-  background-color: white;
+/*  background-color: white;*/
   display: flex;
+  text-align: justify-all;
 }
 .vfluviales{
   margin-left: 350px;
   margin-right: 350px;
-  margin-top: 30px;
   margin-bottom: 30px;
-  padding-top: 10px;
+  padding-top: 50px;
   padding-bottom: 10px;
   padding-right: 10px;
   padding-left: 10px;
-  background-color: white;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
