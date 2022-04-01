@@ -4,64 +4,61 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="contactstyle.css">
-
+  <link rel="icon" type="image/png" href="images/blason.svg" />
 	<title>Contact</title>
 
 </head>
 <body>
 	<header>
 		<div id="conteneur">
-			<div class="logo">
-				<img src="images/logocd.png">
-			</div>
-			<div class="titre">
-				<h1>Saint Denis</h1> 
-				<ul id="nav">
-					<li><a href="index.html">Accueil</a></li>
-					<li><a href="Explorer.html" target="_blank">Explorer</a></li>
-					<li><a href="servicepratique.html" target="_blank">Services Pratiques</a></li>
-					<li><a href="Culture.html" target="_blank">Culture</a></li>
-					<li><a href="seloger.html" target="_blank">Se loger</a></li>
-					<li><a href="contact.html" target="_blank">Contact</a></li>		
-        </ul>
-			</div>
-  </form>
-	</div>
-			</div>
-<div class="container"> 
-  <div style="text-align:center">
-    <h2>Contactez Nous</h2>
-    <p>Remplissez vos informations et laissez nous votre message:</p>
-  </div>
-  <div class="row">
-    <div class="column">
-      <img src="images/SaintDenisPhoto.jpg" style="width:100%">
-    </div>
-    <div class="column">
-      <form action="/action_page.php" method="POST">
-      	<label for="Genre">Genre</label>
-        <select id="Genre" name="genre">
-          <option value="femme">Femme</option>
-          <option value="homme">Homme</option>
-          <option value="iel">Ne veux pas se prononcer</option>
-
-         <label for="lname">prenom</label>
-        <input type="text" id="fname" name="firstname" placeholder="Votre Prenom..">
-        
-        <label for="lname">Nom</label>
-        <input type="text" id="lname" name="lastname" placeholder="Votre Nom..">
-        </select>
-
-        <label for="subject">Sujet</label>
-        <textarea id="subject" name="subject" placeholder="Ecrivez votre message.." style="height:170px"></textarea>
-
-        <input type="submit" value="Submit">
-      </form>
-    </div>
-  </div>
-</div>
+  			<div class="logo">
+  				<img src="images/Logosd_V2.svg">
+  			</div>
+  			<div class="titre">
+  				<h1> Saint Denis</h1> 
+          <br>
+          <br>
+  				<ul id="nav">
+  					<li><a href="index.html">Accueil</a></li>
+  					<li><a href="Explorer.html" target="_blank">Explorer</a></li>
+  					<li><a href="servicepratique.html" target="_blank">Services Pratiques</a></li>
+  					<li><a href="Culture.html" target="_blank">Culture</a></li>
+  					<li><a href="seloger.html" target="_blank">Se loger</a></li>
+  					<li><a href="contact.html" target="_blank">Contact</a></li>		
+          </ul>
+  			</div>
+	 </div>
 	</header>
 <div class="dummy_page">
+    <div class="container">
+      <div style="text-align:center">
+        <h2>Contactez Nous</h2>
+        <br>
+        <p>Si vous avez des questions , adressez votre message à Monsieur le Maire</p>
+      </div>
+      <div class="row">
+        <div class="column">
+          <img src="images/SaintDenisPhoto.jpg" style="width:100%">
+        </div>
+        <div class="column">
+          <form action="/action_page.php">
+            <label for="fname">Prénom</label>
+            <input type="text" id="fname" name="firstname" placeholder="votre prénom..">
+            <label for="lname">Nom</label>
+            <input type="text" id="lname" name="lastname" placeholder="votre nom de famille..">
+            <label for="country">Genre</label>
+            <select id="country" name="Genre">
+              <option value="australia">Homme</option>
+              <option value="canada">Femme</option>
+              <option value="usa">Ne veut pas se prononcer</option>
+            </select>
+            <label for="subject">Sujet</label>
+            <textarea id="subject" name="subject" placeholder="Ecrivez votre message..." style="height:170px"></textarea>
+            <input type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+    </div>
   </div>
 <!-- FOOTER START -->
 <div class="footer">
@@ -125,7 +122,7 @@
   </div>
   <div class="clearfix"></div>
   </div>
-  </div>
+</div>
 <!-- END OF FOOTER -->
 
 </body>

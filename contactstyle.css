@@ -2,16 +2,18 @@
   padding: 0;
   margin: 0;
 }
+
 header{
   width: 100%;
   height: 150px;
+  background-color: #070617;
 }
 
 h1 {
   text-align: center;
-  color: black;
+  color: white;
   cursor: default; 
-  font-size: 50px
+  font-size: 35px
 
 }
 li {
@@ -21,7 +23,8 @@ li {
   padding: 0; 
   text-align: center;
   text-decoration: none;
-  font-size: 20px  
+  font-size: 20px 
+  color: white
 }
 #nav li {
   display: inline;
@@ -48,11 +51,12 @@ li {
   /*justify-content: space-between;*/
   height: 150px;
 }
+
 .logo{
   width: 15%;
 }
 .logo img{
-  width: 130px;
+  width: 80px;
 }
 .titre{
   margin: auto;
@@ -121,6 +125,7 @@ input[type=submit]:hover {
   width: 100%;
   position: relative;
   height: auto;
+  background-color: #070617;
   
 }
 .footer .col {

@@ -40,6 +40,7 @@ li {
   width: 100%;
   border-radius: 8px;
   text-decoration: none;
+
   
 }
  /*header{
@@ -51,6 +52,27 @@ li {
     color: white;
     text-decoration: none;
 }
+.parallax {
+  /* The image used */
+  background-image: url("images/PlaceSD.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*.text{
+height:1000px;
+background-color:#FFFFFF;
+font-size:36px;
+}*/
+/*img{
+  width: 250px;
+float: left;
+}
+*/
 #conteneur{
   display: flex;
   /*justify-content: space-between;*/
@@ -60,7 +82,7 @@ li {
   width: 15%;
 }
 .logo img{
-  width: 130px;
+  width: 150px;
 }
 .titre{
   margin: auto;
@@ -84,6 +106,9 @@ li {
   position: relative;
   height: auto;
   background-color: #070617;
+  margin-top: 150px;
+  
+
 }
 .footer .col {
   width: 190px;
@@ -168,7 +193,7 @@ li {
     }
     .footer .col h1 {
       font-size: 14px;
-    }
+    } 
     .footer .col ul li {
       font-size: 13px;
     }
