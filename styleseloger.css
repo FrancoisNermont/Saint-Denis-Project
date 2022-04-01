@@ -73,6 +73,7 @@ li {
   height: auto;
   width: 100%;
   background-color: #e6e6e6ff;
+  border: 5px solid white;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
