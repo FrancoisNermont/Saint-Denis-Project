@@ -2,13 +2,6 @@
   padding: 0;
   margin: 0;
 }
-/* REMOVE THIS, USE YOUR OWN  */
-html,body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, Sans-serif;
-  background-color: #070617;
-}
 header{
   width: 100%;
   height: 150px;
@@ -19,14 +12,28 @@ h1 {
   cursor: default; 
   font-size: 35px;
 }
+
 li {
   display: inline;
+}
+p{
+  font-size: 20px;
+  text-align: center;
+  text-align: left;
+
+}
+h2{
+  font-size: 22px;
+}
+img{
+  width: 500px;
+  margin-right: 80%;
 }
 #nav {
   padding: 0; 
   text-align: center;
   text-decoration: none;
-  font-size: 20px; 
+  font-size: 25px; 
 }
 #nav li {
   display: inline;
@@ -37,9 +44,7 @@ li {
   margin: 0 auto;
   width: 100%;
   border-radius: 8px;
-  text-decoration: none;
-
-  
+  text-decoration: none; 
 }
  /*header{
   position: fixed;
@@ -80,7 +85,7 @@ float: left;
   width: 15%;
 }
 .logo img{
-  width: 80px;
+  width: 75px;
 }
 .titre{
   margin: auto;
@@ -102,15 +107,17 @@ html,body {
   background-color: #f0f0f0;
   text-align: center;
   box-sizing: border-box;
-  padding: 60px 0px;
+  padding: 50px 0px;
+   
 }
-
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
   width: 100%;
   position: relative;
   height: auto;
   background-color: #070617;
+  margin-top: 150px;
+  
 }
 .footer .col {
   width: 190px;
@@ -125,7 +132,7 @@ html,body {
   margin: 0;
   padding: 0;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
   color: rgba(255,255,255,0.2);
@@ -140,7 +147,7 @@ html,body {
 }
 .footer .col ul li {
   color: white;
-  font-size: 14px;
+  font-size: 15px;
   font-family: inherit;
   font-weight: bold;
   padding: 5px 0px 5px 0px;
@@ -206,6 +213,31 @@ html,body {
   }
 }
 
+.image-ronde-bg{
+  background-size : contain;
+  background-position : 50% 50%; 
+  background-image : url(placeSD.jpg);
+  display : inline-block;
+  width : 50px; height : 50px;
+  border: none;
+  -moz-border-radius : 75px;
+  -webkit-border-radius : 75px;
+  border-radius : 75px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 100px;
+}
+.grid-item {
+  padding: 50px;
+  font-size: 10px;
+  text-align: center;
+  border: none;
+}
+.henry{
+  width: 80px;
+}
 
 
 
