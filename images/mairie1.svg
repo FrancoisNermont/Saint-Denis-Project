@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="96.098549mm"
+   height="106.63167mm"
+   viewBox="0 0 96.098549 106.63167"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="mairie.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.72337262"
+     inkscape:cx="190.08184"
+     inkscape:cy="220.49494"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-61.679751,-90.209372)">
+    <g
+       id="g1502">
+      <ellipse
+         style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:0.986231;paint-order:markers fill stroke"
+         id="path1151"
+         cx="109.72903"
+         cy="143.52521"
+         rx="47.55616"
+         ry="52.82272" />
+      <path
+         id="path7509"
+         d="m 109.59477,114.45879 -29.517816,14.67644 v 2.36303 H 139.1126 v -2.36303 z m -24.976672,21.29925 v 21.29925 l -4.541144,6.62265 v 6.15686 H 139.1126 v -6.15686 l -4.54116,-6.62265 v -21.29925 z m 9.08247,4.25978 h 4.54117 v 23.42915 h -4.54117 z m 13.623642,0 h 4.54114 v 23.42915 h -4.54114 z m 13.62362,0 h 4.54115 v 23.42915 h -4.54115 z"
+         style="mix-blend-mode:multiply;fill:#000000;fill-opacity:1;stroke-width:4.39827" />
+    </g>
+  </g>
+</svg>

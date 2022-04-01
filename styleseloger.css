@@ -72,7 +72,7 @@ li {
 .corps {
   height: auto;
   width: 100%;
-  background-color: gray;
+  background-color: #e6e6e6ff;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
@@ -179,112 +179,153 @@ li {
 }
 /* container = ce qui contient les images et textes
    codé de façon à ce que l'image et le texte restent sur une seule ligne */
-.container1{
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
-img{
-  max-width: auto;
-}
-/* flex-basis = permet d'ajuster un élément sur la page */
-.image1{
-  flex-basis: 40%;
+  
+
 }
 .container1 > div{
   flex-basis: 40%;
 }
-.container2{
+img{
+  max-width: auto;
+}
+.img1 img{
+  border: 5px solid black;
+}
+button{
+  background-color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 15px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #d52e2eff;
+  color: white;
+  transition: all 1s ease-out;
+}
+button a:hover{
+  color: white;
+  background-color: #d52e2eff;
+}
+button a{
+  color: black;
+  text-decoration: none;
+  transition: all 1s ease-out;
+}
+
+
+.texte{
+  font-family: Arial;
+  background-color: white;
+  padding: 10px;
+}
+/*.desc{
+  margin: 30px;
+}
+.prix{
+  margin: 30px;
+}*/
+/* flex-basis = permet d'ajuster un élément sur la page */
+.image1{
+  flex-basis: 40%;
+}
+
+/*.container2{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image2{
   flex-basis: 40%;
 }
 .container2 > div{
   flex-basis: 40%;
 }
-.container3{
+/*.container3{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image3{
   flex-basis: 40%;
 }
 .container3 > div{
   flex-basis: 40%;
 }
-.container4{
+/*.container4{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image4{
   flex-basis: 40%;
 }
 .container4 > div{
   flex-basis: 40%;
 }
-.container5{
+/*.container5{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image5{
   flex-basis: 40%;
 }
 .container5 > div{
   flex-basis: 40%;
 }
-.container6{
+/*.container6{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image6{
   flex-basis: 40%;
 }
 .container6 > div{
   flex-basis: 40%;
 }
-.container7{
+/*.container7{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image7{
   flex-basis: 40%;
 }
 .container7 > div{
   flex-basis: 40%;
 }
-.container8{
+/*.container8{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image8{
   flex-basis: 40%;
 }
 .container8 > div{
   flex-basis: 40%;
 }
-.container9{
+/*.container9{
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-}
+  color: black;
+}*/
 .image9{
   flex-basis: 40%;
 }
