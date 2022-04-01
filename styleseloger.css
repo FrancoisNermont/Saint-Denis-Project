@@ -72,8 +72,8 @@ li {
 .corps {
   height: auto;
   width: 100%;
-  background-color: #e6e6e6ff;
-  border: 5px solid white;
+  background-color: white;
+  border: 5px solid #e6e6e6ff;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
@@ -253,24 +253,6 @@ button a{
 .bouton:hover span:after {
   opacity: 1;
   right: 0;
-}
-/*button{
-  background-color: white;
-  padding: 5px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 15px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-button:hover{
-  background-color: #d52e2eff;
-  color: white;
-  transition: all 1s ease-out;
-}
-button a:hover{
-  color: white;
-/*  background-color: #d52e2eff;*/
 }
 button a{
   color: black;

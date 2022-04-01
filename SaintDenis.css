@@ -73,12 +73,30 @@ li {
 .corps {
   height: auto;
   width: 100%;
-  background-color: #e6e6e6ff;
+  background-color: white;
   text-align: center;
   box-sizing: border-box;
   padding: 50px 0px;
-  border: 5px solid white;
+  border: 5px solid #e6e6e6ff;
+}
 /*textes en dessus de la carte et en dessous*/
+h2{
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+.news{
+  background-color: #e6e6e6ff;
+  padding-right: 230px;
+  padding-left: 200px;
+  margin-right: 100px;
+  padding-bottom: 15px;
+  border-top-width: 2px;
+  border-top-style: solid;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: 5px;
 }
 .texte1{
   display: flex;
@@ -117,13 +135,96 @@ li {
   margin-right: 0px;
   margin-left: 400px;
   margin-bottom: 0px;
-  background-color: white;
+  background-color: #e6e6e6ff;
 }
 .citation{
   margin-top: 0px;
   margin-left: 265px;
   margin-right: 273px;
-  background-color: white;
+  background-color: #e6e6e6ff;
+}
+.tramway{
+  display: flex;  
+  background: #e6e6e6ff;
+  color: black;
+  margin-left: 0px;
+  margin-bottom: 0px;  
+  margin-right: 459px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 18px;
+  padding-bottom: 20px;
+  border-right-width: 2px;
+  border-right-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+}
+.imgtramway{
+  border-left-width: 0px;
+  border-left-style: solid;
+  margin-left: 350px;
+  padding-right: 0px;
+  border-left-width: 1px;
+  border-right-width: 2px;
+  border-right-style: solid;
+  margin-left: 349px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-top-width: 2px;
+  border-top-style: solid;
+}
+.container{  
+  display: flex;
+  margin-bottom: 150px;
+}
+button{
+  vertical-align: middle;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+.bouton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e6e6e6ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 280px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: -250px;
+}
+.bouton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: gray;
+}
+.bouton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.bouton:hover span {
+  padding-right: 25px;
+}
+
+.bouton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
 }
 .container1{
   display: flex;
@@ -131,28 +232,45 @@ li {
   justify-content: center;
   margin-bottom: 50px;
 }
-.port{
-  border: solid 5px white;
-  margin-right: 20px;
-}
-.port1{
-  border: solid 5px white;
+.container > div{
+  flex-basis: 40%;
 }
 .container1 > div{
   flex-basis: 40%;
 }
+.port{
+  border: solid 5px #e6e6e6ff;
+  margin-right: 20px;
+}
+.port1{
+  border: solid 5px #e6e6e6ff;
+}
 .description{
-  margin-left: 330px;
-  margin-right: 330px;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-right: 10px;
-  padding-left: 10px;
-/*  background-color: white;*/
   display: flex;
-  text-align: justify-all;
+  margin-right: 0px;
+  margin-left: 190px;
+  margin-top: 0px;
+  padding-right: 20px;
+  border-left-width: 0px;
+  border-left-style: solid;
+  border-bottom-width: 0px;
+  border-bottom-style: solid;
+  border-top-width: 0px;
+  border-top-style: solid;
+  border-right-width: 0px;
+  border-right-style: solid;
+  padding-bottom: 5px;
+  margin-bottom: 0px;
+  padding-top: 5px;
+  padding-left: 20px;
+}
+.imgblason{
+  margin-right: 350px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin-top: -75px;
+  margin-bottom: 50px;
 }
 .vfluviales{
   margin-left: 350px;
