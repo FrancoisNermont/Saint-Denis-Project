@@ -216,7 +216,6 @@ html,body {
     width: 100%;
   }
 }
-
 .image-ronde-bg{
   background-size : contain;
   background-position : 50% 50%; 
@@ -238,9 +237,6 @@ html,body {
   font-size: 10px;
   text-align: center;
   border: none;
-}
-
-  width: 80px;
 }
 button{
   vertical-align: middle;

@@ -23,8 +23,7 @@ li {
   padding: 0; 
   text-align: center;
   text-decoration: none;
-  font-size: 20px 
-  color: white
+  font-size: 25px; 
 }
 #nav li {
   display: inline;
@@ -35,28 +34,48 @@ li {
   margin: 0 auto;
   width: 100%;
   border-radius: 8px;
-  text-decoration: none;
-  background: linear-gradient(to bottom,#000000 0%,#000000 100%);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-  }
-  #nav a {
+  text-decoration: none; 
+}
+ /*header{
+  position: fixed;
+ }*/
+#nav a {
     display: inline-block;
     margin: 0 30px;
     color: white;
     text-decoration: none;
 }
+.parallax {
+  /* The image used */
+  background-image: url("images/PlaceSD.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*.text{
+height:1000px;
+background-color:#FFFFFF;
+font-size:36px;
+}*/
+/*img{
+  width: 250px;
+float: left;
+}
+*/
 #conteneur{
   display: flex;
   /*justify-content: space-between;*/
   height: 150px;
 }
-
 .logo{
   width: 15%;
 }
 .logo img{
-  width: 80px;
+  width: 75px;
 }
 .titre{
   margin: auto;
@@ -126,6 +145,7 @@ input[type=submit]:hover {
   position: relative;
   height: auto;
   background-color: #070617;
+  margin-top: 150px;
   
 }
 .footer .col {
@@ -141,10 +161,10 @@ input[type=submit]:hover {
   margin: 0;
   padding: 0;
   font-family: inherit;
-  font-size: 12px;
+  font-size: 17px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
-  color: black;
+  color: rgba(255,255,255,0.2);
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.250em;
@@ -155,8 +175,8 @@ input[type=submit]:hover {
   padding: 0;
 }
 .footer .col ul li {
-  color: black;
-  font-size: 14px;
+  color: white;
+  font-size: 15px;
   font-family: inherit;
   font-weight: bold;
   padding: 5px 0px 5px 0px;
@@ -171,7 +191,7 @@ input[type=submit]:hover {
 }
 
 .footer .col ul li:hover {
-  color: black;
+  color: #ffffff;
   transition: .1s;
   -webkit-transition: .1s;
   -moz-transition: .1s;
@@ -211,7 +231,7 @@ input[type=submit]:hover {
     }
     .footer .col h1 {
       font-size: 14px;
-    }
+    } 
     .footer .col ul li {
       font-size: 13px;
     }

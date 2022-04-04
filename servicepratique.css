@@ -24,7 +24,7 @@ p{
   padding: 0; 
   text-align: center;
   text-decoration: none;
-  font-size: 28px; 
+  font-size: 25px; 
 }
 #nav li {
   display: inline;
@@ -76,7 +76,7 @@ float: left;
   width: 15%;
 }
 .logo img{
-  width: 85px;
+  width: 75px;
 }
 .titre{
   margin: auto;
@@ -123,7 +123,7 @@ html,body {
   margin: 0;
   padding: 0;
   font-family: inherit;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 17px;
   padding: 20px 0px 5px 0px;
   color: rgba(255,255,255,0.2);
@@ -203,7 +203,6 @@ html,body {
     width: 100%;
   }
 }
-
 .image-ronde-bg{
   background-size : contain;
   background-position : 50% 50%; 
