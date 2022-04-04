@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
 }
-/* REMOVE THIS, USE YOUR OWN  */
 html,body {
   margin: 0;
   padding: 0;
@@ -18,8 +17,9 @@ h1 {
   color: white;
   cursor: default; 
   font-size: 35px;
-
-
+}
+.center{
+  color: white;
 }
 li {
   display: inline;
@@ -91,20 +91,14 @@ float: left;
 .test{
   width: 15%;
 }
-/* REMOVE THIS, USE YOUR OWN  */
-html,body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, Sans-serif;
-  background-color: #070617;
-}
-.dummy_page {
-  height: 200px;
+.corps {
+  height: auto;
   width: 100%;
-  background-color: #f0f0f0;
+  background-color: white;
+  border: 5px solid #e6e6e6ff;
   text-align: center;
   box-sizing: border-box;
-  padding: 60px 0px;
+  padding: 50px 0px;
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
@@ -209,3 +203,187 @@ html,body {
     width: 100%;
   }
 }
+/* container = ce qui contient les images et textes
+   codé de façon à ce que l'image et le texte restent sur une seule ligne */
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 > div{
+  flex-basis: 40%;
+}
+img{
+  max-width: auto;
+}
+.img1 img{
+  border: 5px solid black;
+}
+.texte{
+  font-family: Arial;
+  background-color: white;
+  padding: 10px;
+/*}
+.desc{
+  margin: 30px;*/
+}
+.prix{
+  color: black;
+  font-style: bold;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+button{
+vertical-align: middle;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+.bouton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e6e6e6ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 280px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bouton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: gray;
+}
+.bouton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.bouton:hover span {
+  padding-right: 25px;
+}
+
+.bouton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+/* flex-basis = permet d'ajuster un élément sur la page */
+.image1{
+  flex-basis: 40%;
+}
+
+/*.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image2{
+  flex-basis: 40%;
+}
+.container2 > div{
+  flex-basis: 40%;
+}
+/*.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image3{
+  flex-basis: 40%;
+}
+.container3 > div{
+  flex-basis: 40%;
+}
+/*.container4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image4{
+  flex-basis: 40%;
+}
+.container4 > div{
+  flex-basis: 40%;
+}
+/*.container5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image5{
+  flex-basis: 40%;
+}
+.container5 > div{
+  flex-basis: 40%;
+}
+/*.container6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image6{
+  flex-basis: 40%;
+}
+.container6 > div{
+  flex-basis: 40%;
+}
+/*.container7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image7{
+  flex-basis: 40%;
+}
+.container7 > div{
+  flex-basis: 40%;
+}
+/*.container8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image8{
+  flex-basis: 40%;
+}
+.container8 > div{
+  flex-basis: 40%;
+}
+/*.container9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image9{
+  flex-basis: 40%;
+}
+.container9 > div{
+  flex-basis: 40%;
+}
+
+
