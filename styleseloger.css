@@ -1,0 +1,389 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+html,body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  background-color: #070617;
+}
+header{
+  width: 100%;
+  height: 150px;
+}
+h1 {
+  text-align: center;
+  color: white;
+  cursor: default; 
+  font-size: 35px;
+}
+.center{
+  color: white;
+}
+li {
+  display: inline;
+}
+#nav {
+  padding: 0; 
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px; 
+}
+#nav li {
+  display: inline;
+  list-style: none;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  border-radius: 8px;
+  text-decoration: none;
+
+  
+}
+ /*header{
+  position: fixed;
+ }*/
+#nav a {
+    display: inline-block;
+    margin: 0 30px;
+    color: white;
+    text-decoration: none;
+}
+.parallax {
+  /* The image used */
+  background-image: url("images/PlaceSD.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*.text{
+height:1000px;
+background-color:#FFFFFF;
+font-size:36px;
+}*/
+/*img{
+  width: 250px;
+float: left;
+}
+*/
+#conteneur{
+  display: flex;
+  /*justify-content: space-between;*/
+  height: 150px;
+}
+.logo{
+  width: 15%;
+}
+.logo img{
+  width: 150px;
+}
+.titre{
+  margin: auto;
+  width: 70%;
+}
+.test{
+  width: 15%;
+}
+.corps {
+  height: auto;
+  width: 100%;
+  background-color: white;
+  border: 5px solid #e6e6e6ff;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 0px;
+}
+/* STYLES SPECIFIC TO FOOTER  */
+.footer {
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: #070617;
+  margin-top: 150px;
+  
+
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: rgba(255,255,255,0.2);
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.250em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: white;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: .2s;
+  -webkit-transition: .2s;
+  -moz-transition: .2s;
+}
+.social ul li {
+  display: inline-block;
+  padding-right: 5px !important;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: .1s;
+  -webkit-transition: .1s;
+  -moz-transition: .1s;
+}
+.clearfix {
+  clear: both;
+}
+@media only screen and (min-width: 1280px) {
+  .contain {
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  .contain .social {
+    width: 1000px;
+    display: block;
+  }
+  .social h1 {
+    margin: 0px;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .footer .col {
+    width: 33%;
+  }
+  .footer .col h1 {
+    font-size: 14px;
+  }
+  .footer .col ul li {
+    font-size: 13px;
+  }
+}
+@media only screen and (max-width: 500px) {
+    .footer .col {
+      width: 50%;
+    }
+    .footer .col h1 {
+      font-size: 14px;
+    } 
+    .footer .col ul li {
+      font-size: 13px;
+    }
+}
+@media only screen and (max-width: 340px) {
+  .footer .col {
+    width: 100%;
+  }
+}
+/* container = ce qui contient les images et textes
+   codé de façon à ce que l'image et le texte restent sur une seule ligne */
+.container1, .container2, .container3, .container4, .container5, .container6, .container7, .container8, .container9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container1 > div{
+  flex-basis: 40%;
+}
+img{
+  max-width: auto;
+}
+.img1 img{
+  border: 5px solid black;
+}
+.texte{
+  font-family: Arial;
+  background-color: white;
+  padding: 10px;
+/*}
+.desc{
+  margin: 30px;*/
+}
+.prix{
+  color: black;
+  font-style: bold;
+  margin-top: 30px;
+  font-size: 30px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+button{
+vertical-align: middle;
+}
+button a{
+  color: white;
+  text-decoration: none;
+}
+.bouton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #e6e6e6ff;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 5px;
+  width: 280px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.bouton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: gray;
+}
+.bouton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.bouton:hover span {
+  padding-right: 25px;
+}
+
+.bouton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+button a{
+  color: black;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+/* flex-basis = permet d'ajuster un élément sur la page */
+.image1{
+  flex-basis: 40%;
+}
+
+/*.container2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image2{
+  flex-basis: 40%;
+}
+.container2 > div{
+  flex-basis: 40%;
+}
+/*.container3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image3{
+  flex-basis: 40%;
+}
+.container3 > div{
+  flex-basis: 40%;
+}
+/*.container4{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image4{
+  flex-basis: 40%;
+}
+.container4 > div{
+  flex-basis: 40%;
+}
+/*.container5{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image5{
+  flex-basis: 40%;
+}
+.container5 > div{
+  flex-basis: 40%;
+}
+/*.container6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image6{
+  flex-basis: 40%;
+}
+.container6 > div{
+  flex-basis: 40%;
+}
+/*.container7{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image7{
+  flex-basis: 40%;
+}
+.container7 > div{
+  flex-basis: 40%;
+}
+/*.container8{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image8{
+  flex-basis: 40%;
+}
+.container8 > div{
+  flex-basis: 40%;
+}
+/*.container9{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}*/
+.image9{
+  flex-basis: 40%;
+}
+.container9 > div{
+  flex-basis: 40%;
+}
+
+
