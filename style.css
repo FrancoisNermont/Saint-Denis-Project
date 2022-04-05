@@ -12,7 +12,6 @@ h1 {
   cursor: default; 
   font-size: 35px;
 }
-
 li {
   display: inline;
 }
@@ -51,7 +50,7 @@ img{
  }*/
 #nav a {
     display: inline-block;
-    margin: 0 30px;
+    margin: 0 20px;
     color: white;
     text-decoration: none;
 }
@@ -257,7 +256,7 @@ button a{
   width: 280px;
   transition: all 0.5s;
   cursor: pointer;
-  margin-top: -250px;
+  margin-top: -120px;
 }
 .bouton span {
   cursor: pointer;
